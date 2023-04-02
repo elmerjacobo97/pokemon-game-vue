@@ -1,5 +1,5 @@
 <template>
-    <h2 v-if="!pokemon">Espere por favor...</h2>
+    <h1 v-if="!pokemon">Espere por favor...</h1>
     <!-- <div v-if="pokemon"> -->
     <div v-else>
         <h1>¿Quién es este Pokemon?</h1>
